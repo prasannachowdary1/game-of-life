@@ -45,6 +45,12 @@
             <artifactId>groovy-all</artifactId>
             <version>1.8.2</version>
             <scope>test</scope>
+                 <configuration>
+            <formats>
+                <format>html</format>
+                <format>xml</format>
+            </formats>
+        </configuration>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
